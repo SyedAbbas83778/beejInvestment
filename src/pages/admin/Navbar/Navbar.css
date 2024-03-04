@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-logo img{
+    width: 38px;
+    height: 38px;
+}
+.navbar-info h1{
+  font-size: 32px;
+}

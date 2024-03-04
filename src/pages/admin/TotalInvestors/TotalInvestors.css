@@ -1,0 +1,67 @@
+.total-information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px 30px;
+}
+@media(max-width:1690px){
+    .total-information{
+        justify-content: space-around;
+        gap: 20px;
+        padding-left: 15px;
+    }
+}
+@media(max-width:1690px){
+    .total-information{
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .card1{
+        width: 280px;
+        height: 200px;
+    }
+}
+.card1{
+    width: 320px;
+    height: 220px;
+    border: 2px solid #F1F5F7;
+    border-radius: 10px;
+}
+.card-fullContent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+}
+.investor-info, .investor-content, .investor-numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.img-content-num{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.image-context{
+    display: flex;
+    gap: 10px;
+}
+.investor-info img{
+width: 30px;
+}
+.card1 h1{
+font-size: 24px;
+color: #464646;
+}
+.card1 p{
+    font-size: 18px;
+    color: #464646;
+}
+.investor-numbers p{
+    font-size: 24px;
+    color: #464646;
+}

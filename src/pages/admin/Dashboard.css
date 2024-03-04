@@ -1,0 +1,44 @@
+
+.container1{
+    display: flex;
+}
+
+.container2{
+width: 20%;
+height: 100vb;
+}
+
+.container3{
+width: 100%;
+height: 100vh;
+overflow-y: scroll;
+padding-right: 10px;
+display: flex;
+gap: 20px;
+
+flex-direction: column;
+}
+@media(max-width:1880px){
+    .container3{
+        width: 80%;
+        height: 100vh;
+        } 
+}
+
+.container4{
+    width: 100%;
+}
+.container6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-around ;
+    /* padding: 0px 30px 50px 30px; */
+}
+.container8{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:space-around ;
+ 
+}
